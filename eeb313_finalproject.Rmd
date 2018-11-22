@@ -4,6 +4,7 @@ output: html_document
 ---
 # Set-up
 ```{r}
+#rm(list=ls())
 library(tidyverse)
 library(dplyr)
 pred_prey <- read_delim("~/Desktop/Predator_and_prey_body_sizes_in_marine_food_webs_vsn4.txt", delim = "\t")
